@@ -6,4 +6,4 @@ if number < 0:
 elif number == 0:
     print(str(number) + ' Is Zero')
 elif number > 0:
-    print(str(number) + ' Is positive')
+    print(str(number) + '  Is positive')
