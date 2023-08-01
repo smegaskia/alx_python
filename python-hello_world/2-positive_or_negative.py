@@ -1,11 +1,12 @@
 import random
+
 number = random.randint(-10, 10)
-# YOUR CODE HERE
-number = ''
+
+# Your code here
+
 if number < 0:
-    print(str(number) + ' Is negative')
+    print(f"{number} Is negative")
 elif number == 0:
-    print(str(number) + ' Is Zero')
+    print(f"{number} Is Zero")
 elif number > 0:
-    print(str(number) + ' Is positive')
-#This is the new line
+    print(f"{number} is positive")
