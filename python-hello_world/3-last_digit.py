@@ -1,2 +1,15 @@
-for i in range(99):
-    print(f"{i:02d} = 0x{i:02x}", end=", " if i < 98 else "\n")
+import random
+
+number = random.randint(-10000, 10000)
+
+# Last digit of 4205 is 5 and is less than 6 and not 0
+last_digit = abs(number) % 10
+
+
+
+if last_digit > 5:
+    print(f'Last digit of {number} is {last_digit}', 'and is greater than 5')
+elif last_digit == 0:
+    print(f'Last digit of {number} is {last_digit}', 'and is Zero')
+else:
+    print(f'Last digit of {number} is {last_digit}', 'and is less than 6 and not 0')
